@@ -31,7 +31,7 @@ class BankAccount{
                 this.Balance = (this.Balance - Number(amount)).toFixed(2);
                 console.log(`After withdrawal ${amount} credits, your balance is ${this.Balance}`);
             }else{
-                console.log('You don\'t have sufficient balance for withdrawal '+amount);
+                console.log('Insufficient funds');
             }
         }else{
             console.log('String or Negative amount couldn\'t withdraw');
