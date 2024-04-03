@@ -43,6 +43,15 @@ body{
 .profile_card:hover{
     box-sizing: border-box;
     box-shadow: 0px 4px 64px -20px rgba(0, 0, 0, 0.85);
+
+    .avater{
+        border: 6px solid rgba(73, 128, 128, 0.584);
+        transition: ease-in 0.5s;
+        -webkit-transition: ease-in 0.5s;
+        -moz-transition: ease-in 0.5s;
+        -ms-transition: ease-in 0.5s;
+        -o-transition: ease-in 0.5s;
+}
 }
 
 /* styling profile avater  */
@@ -63,10 +72,15 @@ body{
     border: 6px solid #ddd;
     margin-bottom: 10px;
     border-radius: 50%;
+    transition: ease-in 0.5s;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    -webkit-transition: ease-in 0.5s;
+    -moz-transition: ease-in 0.5s;
+    -ms-transition: ease-in 0.5s;
+    -o-transition: ease-in 0.5s;
 }
 
 /* styling profile information  */
@@ -76,6 +90,10 @@ body{
 
 .profile_info p{
     margin-top: 5px;
+}
+
+.occupation{
+    color: #3a7d5e;
 }
 
 .short_description{
