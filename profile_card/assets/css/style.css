@@ -1,0 +1,104 @@
+/* styling global contents*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+    opacity: 1;
+    margin: 2px 0px;
+    color: #6c776442;
+}
+strong,h4{
+    font-weight: 600;
+}
+
+/* styling body element  */
+body{
+    width: 100%;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    min-height: 100vh;
+}
+
+/* styling profile card  */
+.profile_card{
+    width: 100%;
+    max-width: 380px;
+    min-height: 460px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 15px 20px;
+    margin: 0;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+
+.profile_card:hover{
+    box-sizing: border-box;
+    box-shadow: 0px 4px 64px -20px rgba(0, 0, 0, 0.85);
+}
+
+/* styling profile avater  */
+.profile_avater{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.avater{
+    width: 140px;
+    height: 140px;
+    border: 6px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* styling profile information  */
+.profile_info{
+    margin-top: 20px;
+}
+
+.profile_info p{
+    margin-top: 5px;
+}
+
+.short_description{
+    margin: 15px 0px;
+}
+
+.description_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.contact_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_box a{
+    text-decoration: none;
+    color: teal;
+
+    &:hover{
+        color: salmon;
+    }
+}
